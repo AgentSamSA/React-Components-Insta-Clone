@@ -1,5 +1,5 @@
 import React from 'react';
-import Comments from '../Comments/Comments';
+import CommentBar from '../Comments/CommentBar';
 import LikeSection from './LikeSection';
 import PostHeader from './PostHeader';
 
@@ -23,7 +23,7 @@ const Post = props => {
       {/* Is LikeSection getting all the props it needs to work correctly? */}
       <LikeSection likePost={() => likePost(post.id)} numberOfLikes={post.likes} />
       {/* Comments also wants its props! */}
-      <Comments comments={post.comments} />
+      <CommentBar postId={post.id} comments={post.comments} />
     </div>
   );
 };
