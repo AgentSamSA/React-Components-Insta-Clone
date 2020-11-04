@@ -20,25 +20,30 @@ const Comments = props => {
   }
 
   return (
-    <div>
-      {/* map through the comments prop and render a Comment for every piece of data */}
-      {comments.map(comment => {
+    <>
+      <div>
+        {/* map through the comments prop and render a Comment for every piece of data */}
+        {comments.map(comment => {
 
-        return (
-          <Comment
-            key={comment.id}
-            comment={comment}
-          />
-        )
-      })}
-      <input
-        type="text"
-        placeholder="Write a comment"
-        style={{ textAlign: "center" }}
-        id="comment-box"
-        onKeyDown={makeComment}
-      />
-    </div >
+          return (
+            <Comment
+              key={comment.id}
+              comment={comment}
+            />
+          )
+        })}
+
+      </div >
+      <div>
+        <input
+          type="text"
+          placeholder="Write a comment"
+          style={{ textAlign: "center" }}
+          id="comment-box"
+          onKeyDown={makeComment}
+        />
+      </div>
+    </>
   );
 };
 
