@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Comments from "./Comments";
 
 const CommentBar = (props) => {
-    const { postId, comments } = props;
+    const { comments } = props;
     const [comment, setComment] = useState(comments);
 
     const commentOnPostOnEnterKey = (event) => {
@@ -32,7 +32,7 @@ const CommentBar = (props) => {
                         type="text"
                         placeholder="Write a comment"
                         style={{ textAlign: "center" }}
-                        onKeyDown={event => commentOnPostOnEnterKey(event, postId)}
+                        onKeyDown={event => commentOnPostOnEnterKey(event)}
                     />
                 </form>
             </div>

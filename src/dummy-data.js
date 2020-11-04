@@ -54,6 +54,61 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "slawtwi",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1876&q=80',
+        likes: 6703,
+        timestamp: "October 6th 2019, 07:24:19 am",
+        comments: [
+            {
+                id: 60,
+                username: "slawtwi",
+                text: "Borrowing this for a new business idea...",
+            },
+            {
+                id: 61,
+                username: "philzcoffee",
+                text: "Hey that's mine!",
+            },
+        ],
+    },
+    {
+        id: 4,
+        username: "wintertime",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1876&q=80',
+        likes: 128344,
+        timestamp: "August 15th 2020, 08:30:02 pm",
+        comments: [
+            {
+                id: 79,
+                username: "wintertime",
+                text: "Sad it's not winter :(",
+            },
+            {
+                id: 80,
+                username: "partymarty101",
+                text: "I don't like winter so I'm glad :)",
+            },
+            {
+                id: 81,
+                username: "hellothere22",
+                text: "Hello there.",
+            },
+            {
+                id: 82,
+                username: "beentrainedinarts",
+                text: "General Kenobi!",
+            },
+            {
+                id: 83,
+                username: "shouldnttryit",
+                text: "You underestimate my power!",
+            },
+        ],
+    },
 ];
 
 export default dummyData;
