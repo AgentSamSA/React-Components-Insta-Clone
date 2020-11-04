@@ -12,9 +12,9 @@ const Posts = (props) => {
       {posts.map(post => {
         return (
           <Post
-          key={posts.id}
-          post={post}
-          likePost={likePost}
+            key={posts.id}
+            post={post}
+            likePost={likePost}
           />
         )
       })}
